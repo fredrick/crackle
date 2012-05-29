@@ -1,4 +1,4 @@
 Crackle
 =======
 
-jQuery comparator, equality, and JavaScript utility functions
+JavaScript predicate, comparator, equality, and utility functions
