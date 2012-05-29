@@ -35,7 +35,7 @@ Download and include [crackle.min.js](https://raw.github.com/wayoutmind/crackle/
 
 ###Value predicates
 
-**<a name="value-in" href="#value-in">.is(self).in(that)</a>**
+**<a name="value-in" href="#value-in">.is(value).in(self)</a>**
 
 Return `true` if value `self` exists in an Array `that`.
 
