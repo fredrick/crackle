@@ -69,7 +69,7 @@ Return `true` if `key` exists for each Object in Array `self`.
 
 **<a name="key-all" href="#key-all">.is(self).key(property).all(predicate)</a>**
 
-Return `true` if Object[key] satisfies Function `predicate` for each Object in Array `self`.
+Return `true` if `Object[property]` satisfies Function `predicate` for each Object in Array `self`.
 
 ###jQuery
 
