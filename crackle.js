@@ -4,11 +4,6 @@
  * git@github.com:wayoutmind/crackle.git
  */
 
-// ==ClosureCompiler==
-// @compilation_level SIMPLE_OPTIMIZATIONS
-// @output_file_name crackle.min.js
-// ==/ClosureCompiler==
-
 (function($) {
   "use strict";
   if (!Array.prototype.indexOf) {
