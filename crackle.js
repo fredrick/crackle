@@ -48,9 +48,9 @@
      * @param self {Array}
      * @param that {Array}
      */
-    difference: function(self) {
+    not: function(self) {
       return {
-        from: function(that) {
+        in: function(that) {
           if (Array.prototype.slice.call(arguments).length === 1) {
             return self.filter(function(e) {
               return (that.indexOf(e) < 0);

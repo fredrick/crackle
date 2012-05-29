@@ -7,13 +7,13 @@ var set = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 vows.describe('Crackle').addBatch({
   'List difference': {
-    topic: Crackle.difference(set).from(2, 3, 4, 5),
+    topic: Crackle.not(set).in(2, 3, 4, 5),
     '[ 1, 6, 7, 8, 9, 10 ]': function(topic) {
       assert.deepEqual(topic, [1, 6, 7, 8, 9, 10]);
     }
   },
   'Array difference': {
-    topic: Crackle.difference(set).from([2, 3, 4, 5]),
+    topic: Crackle.not(set).in([2, 3, 4, 5]),
     '[ 1, 6, 7, 8, 9, 10 ]': function(topic) {
       assert.deepEqual(topic, [1, 6, 7, 8, 9, 10]);
     }

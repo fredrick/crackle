@@ -27,7 +27,11 @@ Download and include [crackle.min.js](https://raw.github.com/wayoutmind/crackle/
 ```html
     <script src="crackle.min.js" type="text/javascript"></script>
     <script type="text/javascript" charset="utf-8">
-        Crackle.difference([1, 2, 3]).from([1, 2, 3, 4, 5]);
+        var values = [1, 2, 3];
+        var Is = Crackle.is;
+        if (Is(1).in(values)) {
+          alert(Crackle.not(values).in([1, 2, 3, 4, 5]));
+        }
     </script>
 ```
 
@@ -81,6 +85,6 @@ Return `true` if DOM node `self` and `that` have the same HTML content or are th
 
 ###Utility
 
-**<a name="difference" href="#difference">.difference(self).from(that)</a>**
+**<a name="not" href="#not">.not(self).in(that)</a>**
 
 Return elements of Array `self` not in Array `that`.
