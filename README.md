@@ -33,12 +33,6 @@ Download and include [crackle.min.js](https://raw.github.com/wayoutmind/crackle/
 
 ##API
 
-###Utility
-
-**<a name="difference" href="#difference">.difference(self).from(that)</a>**
-
-Return elements of Array `self` not in Array `that`.
-
 ###Value predicates
 
 **<a name="value-in" href="#value-in">.is(self).in(that)</a>**
@@ -70,6 +64,12 @@ Return `true` if `key` exists for each Object in Array `self`.
 **<a name="key-all" href="#key-all">.is(self).key(property).all(predicate)</a>**
 
 Return `true` if `Object[property]` satisfies Function `predicate` for each Object in Array `self`.
+
+###Utility
+
+**<a name="difference" href="#difference">.difference(self).from(that)</a>**
+
+Return elements of Array `self` not in Array `that`.
 
 ###jQuery
 
