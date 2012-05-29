@@ -1,6 +1,6 @@
 {
   "author": "Fredrick Galoso <fgaloso@stackd.com>",
-  "name": "gauss",
+  "name": "crackle",
   "description": "JavaScript predicate, comparator, equality, and utility functions",
   "version": "0.1.0",
   "keywords": [ "assert", "array", "utility", "comparision", "contract", "jQuery", "satisfiability", "verification" ],
