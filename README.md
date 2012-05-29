@@ -65,12 +65,6 @@ Return `true` if `key` exists for each Object in Array `self`.
 
 Return `true` if `Object[property]` satisfies Function `predicate` for each Object in Array `self`.
 
-###Utility
-
-**<a name="difference" href="#difference">.difference(self).from(that)</a>**
-
-Return elements of Array `self` not in Array `that`.
-
 ###jQuery
 
 **<a name="parse" href="#parse">.parse(html)</a>**
@@ -84,3 +78,9 @@ Return HTML String (Array) from jQuery Object (Array).
 **<a name="similar" href="#similar">.similar(self).to(that)</a>**
 
 Return `true` if DOM node `self` and `that` have the same HTML content or are the same ID.
+
+###Utility
+
+**<a name="difference" href="#difference">.difference(self).from(that)</a>**
+
+Return elements of Array `self` not in Array `that`.
