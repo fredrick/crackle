@@ -1,7 +1,7 @@
 /**
  * Crackle
  * JavaScript predicate, comparator, equality, and utility functions
- * git@github.com:wayoutmind/crackle.git
+ * https://github.com/wayoutmind/crackle
  */
 
 (function($) {
