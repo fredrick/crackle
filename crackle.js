@@ -198,7 +198,7 @@
           return object.outerHTML;
         });
       } else {
-        return self.outerHTML;
+        return self[0].outerHTML;
       }
     };
     /**
