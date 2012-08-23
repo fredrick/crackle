@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/wayoutmind/crackle.png)](http://travis-ci.org/wayoutmind/crackle)
 Crackle
 =======
 
