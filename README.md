@@ -3,7 +3,7 @@ Crackle
 
 > JavaScript predicate, comparator, equality, and utility functions
 
-Crackle is collection of useful JavaScript functions for both the browser and server.
+Crackle is a collection of useful JavaScript functions for both the browser and server.
 Specifically it focuses on collection predicate operations, such as "all or nothing" verification, and also makes working with sets of jQuery Objects easier.
 
 ##Getting started
